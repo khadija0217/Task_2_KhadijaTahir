@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - MNTN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="index.html" class="back-btn">
+      <span>←</span> Back to Home
+  </a>
+
+  <div class="login-page">
+    <div class="login-box">
+      <h2>Login to your account</h2>
+
+      <form class="login-form" id="loginForm" novalidate>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <span class="error-msg" id="emailError"></span>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <span class="error-msg" id="passwordError"></span>
+
+        <button type="submit" class="login-btn">Login</button>
+
+        <p class="success-msg" id="successMsg"></p>
+      </form>
+
+      <p class="signup-link">Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
