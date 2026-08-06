@@ -64,7 +64,7 @@ Server chal raha hai: http://localhost:3000
 Open [http://localhost:3000](http://localhost:3000) — you should see:
 
 ```
-Hello! Backend server chal raha hai.
+Hello! the backend server is running.
 ```
 
 ---
@@ -76,7 +76,7 @@ Basic health-check route to confirm the server is running.
 
 **Response:**
 ```
-Hello! Backend server chal raha hai.
+Hello! backend server is running.
 ```
 
 ---
